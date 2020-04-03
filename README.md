@@ -1,4 +1,6 @@
-# Command line tool which displays results from both API's
+# Twitter GitHub API Mashup
+
+Command line tool which displays results from both API's
 
 ## Configure
 
