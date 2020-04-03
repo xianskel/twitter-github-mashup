@@ -1,4 +1,4 @@
-# Cian Skelly Code Challenge
+# Command line tool which displays results from both API's
 
 ## Configure
 
