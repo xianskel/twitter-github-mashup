@@ -1,0 +1,33 @@
+{
+  "name": "twitter-github-mashup",
+  "version": "1.0.0",
+  "author": "Cian Skelly",
+  "license": "ISC",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node -r dotenv/config -r esm src/index.js",
+    "test": "mocha -r esm"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "figlet": "^1.2.4",
+    "ora": "^4.0.3",
+    "twitter": "^1.7.1"
+  },
+  "engines": {
+    "node": ">=12.16.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "esm": "^3.2.25",
+    "mocha": "^7.0.1",
+    "sinon": "^9.0.0",
+    "sinon-chai": "^3.4.0"
+  }
+}
